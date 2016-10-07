@@ -1,12 +1,12 @@
 $(window).scroll(function() {
   var scrollYpos = $(document).scrollTop();
-  if (scrollYpos > 290) {
+  if (scrollYpos > 207) {
     $("#nav").css({
       'top': '15px',
     });
   }else {
     $("#nav").css({
-      'top': '290px',
+      'top': '207px',
     });
   }
 });
