@@ -1,8 +1,8 @@
- body {
+body {
   background-image: url('http://i736.photobucket.com/albums/xx10/shelley944/wallpaper-1280x960.jpg');
   background-attachment: fixed;
-  font-size: 15px;
-  font-family: Basskerville;
+  font-size: 20px;
+  font-family: Arial;
   color: #DAC7FF;
 }
 
@@ -10,7 +10,7 @@
   position: fixed;
   width: 200px;
   display: block;
-  top: 207px;
+  top: 300px;
   font-size: 30px;
   border-radius: 5px;
   border-color: white;
@@ -27,6 +27,7 @@
   border-radius: 5px;
   background-image: url('http://www.photos-public-domain.com/wp-content/uploads/2012/08/navy-blue-micro-fiber-cloth-fabric-texture.jpg');
   background-attachment: fixed;
+  test-align: justify;
   padding: 20px;
 }
 
@@ -39,7 +40,7 @@
 }
 
 #nav a:visited {
-/*  color: #B894FF;*/
+  color: #B894FF;
 }
 
 #nav a:hover {
@@ -52,18 +53,17 @@
 }
 
 .height {
-  height: 700px;
+  height: 1000px;
 }
 
 h1 {
-  font-family: New Times Roman;
-  font-size: 40px;
+  font-family: Baskerville;
+  font-size: 50px;
   text-align: center;
-  margin: 10px;
 }
 
 h2 {
-  font-size: 70px;
+  font-size: 100px;
   text-align: center;
   border-radius: 5px;
   border: 5px groove white;
@@ -72,5 +72,3 @@ h2 {
   color: white;
   font-family: New Times Roman;
 }
-
-a {text-decoration: none}
