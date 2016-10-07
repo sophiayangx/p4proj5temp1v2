@@ -27,7 +27,7 @@ body {
   border-radius: 5px;
   background-image: url('http://www.photos-public-domain.com/wp-content/uploads/2012/08/navy-blue-micro-fiber-cloth-fabric-texture.jpg');
   background-attachment: fixed;
-  padding: 30px;
+  padding: 20px;
 }
 
 #nav ul {
@@ -59,6 +59,7 @@ h1 {
   font-family: New Times Roman;
   font-size: 40px;
   text-align: center;
+  margin: 10px;
 }
 
 h2 {
