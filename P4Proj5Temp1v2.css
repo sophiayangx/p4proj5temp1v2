@@ -39,12 +39,11 @@
 }
 
 #nav a:visited {
-/*  color: #B894FF;*/
+  color: #B894FF;
 }
 
 #nav a:hover {
   color: #CCCCCC;
-  background: none;
 }
 
 #nav a:active {
