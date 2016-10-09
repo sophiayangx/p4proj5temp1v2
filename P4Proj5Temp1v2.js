@@ -14,3 +14,7 @@ $(window).scroll(function() {
 var joey = function myFunction() {
   document.getElementById("myCheck").click();
 }
+
+var survey = function myFunction() {
+  document.getElementById("survey").click();
+}
