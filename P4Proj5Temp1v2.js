@@ -14,12 +14,16 @@ $(window).scroll(function() {
 
 
 
-
+//
 //var submitButton = $("submit-button")
 //submitButton.click(function() {	
 //  $("#list-display").getElementbyId("");
 //});
-//
-//function() {
-//  document.getElementById("submit-button").click();
-//}
+
+function() {
+  document.getElementById("submit-button").click();
+}
+
+var joey = function myFunction() {
+  document.getElementById("myCheck").click();
+}
