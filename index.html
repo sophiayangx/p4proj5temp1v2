@@ -1,0 +1,127 @@
+	<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="P4Proj5Temp1v2.css">
+</head>
+<body>
+
+<h2>Welcome</h2>
+
+<div id="nav">
+
+<ul>
+
+	<li><a href="#Quiz">Quiz</a></li>
+	<li><a href="#Survey">Survey</a></li>
+	<li><a href="#MakeOwn">Make Your Own Quiz!</a></li>
+
+</ul>
+
+</div>
+
+<div id="Main">
+
+<div id="Quiz" class="height">
+<h1>Quiz</h1>
+  <p>
+    Which Friends character are you?
+  </p>
+  <form class="forms">
+    What is your gender?
+    <br><input type="radio" name="gender">Male<br>
+    <input type="radio" name="gender">Female<br>
+    <input type="radio" name="gender">Other<br>
+  </form><br>
+  
+  <form class="forms">
+    What is your favorite color?
+    <br><input type="color">
+  </form><br>
+  
+  <form class="forms">
+   Pick a number:
+    <br><input type="number" max="9999" min="0" value="8">
+  </form><br>
+  
+  <form class="forms">
+    Pick a season:
+    <br><input type="radio" name="gender">Summer<br>
+    <input type="radio" name="gender">Spring<br>
+    <input type="radio" name="gender">Fall<br>
+    <input type="radio" name="gender">Winter<br>
+  </form><br>
+  
+  <input type="submit" id="myCheck" onmouseover="myFunction()" onclick="alert('You are... JOEY!!!')">
+  </div>
+  
+<div id="Survey" class="height">
+<h1>Survey</h1>
+  <p>
+    What do you think about the schedule this year?
+  </p>
+  <form class="forms">
+  <br>First name:<br>
+  <input type="text" name="firstname" placeholder="First Name"><br>
+  Last name:<br>
+  <input type="text" name="lastname" placeholder="Last Name">
+  </form><br>
+
+  <form class="forms">
+    What is your grade?
+    <br><input type="radio" name="grade">9th<br>
+    <input type="radio" name="grade">10th<br>
+    <input type="radio" name="grade">11th<br>
+    <input type="radio" name="grade">12th<br>
+  </form><br>
+
+  <form class="forms">
+    What is your opinion?
+    <br><input type="radio" name="opinion"> I love the schedule!<br>
+    <input type="radio" name="opinion"> I don't really have an opinion.<br>
+    <input type="radio" name="opinion"> I don't like it at all.
+  </form><br>
+  
+  Any other thoughts? <br>
+  <textarea id="in" rows="5" cols="50"></textarea><br>
+  <input type="submit" id="survey" onmouseover="myFunction()" onclick="alert('Thank you for your imput.')">
+  
+</div>
+
+<div id="MakeOwn" class="height">
+<h1>Make Your Own Quiz!</h1>
+<p>Enter Your Quiz Title</p>
+  <textarea class="makeown" rows="2" cols="35" placeholder="Quiz Title"></textarea>
+  
+  <br><br>
+  <textarea class="makeown" rows="2" cols="35" placeholder="Your Name"></textarea>
+  
+  <br><br><br>
+  <p>Question 1</p>
+  <textarea class="makeown" rows="2" cols="35" placeholder="Question #1"></textarea>
+  
+  <p>Answers 1</p>
+  <textarea class="answer" rows="2" cols="35" placeholder="Answer A"></textarea>
+  <textarea class="answer" rows="2" cols="35" placeholder="Answer B"></textarea>
+  <textarea class="answer" rows="2" cols="35" placeholder="Answer C"></textarea>
+  <textarea class="answer" rows="2" cols="35" placeholder="Answer D"></textarea>
+  
+  <br>
+  <p>Question 2</p>
+  <textarea class="makeown" rows="2" cols="35" placeholder="Question #2"></textarea>
+
+  
+  <p>Answers 2</p>
+  <textarea class="answer" rows="2" cols="35" placeholder="Answer A"></textarea>
+  <textarea class="answer" rows="2" cols="35" placeholder="Answer B"></textarea>
+  <textarea class="answer" rows="2" cols="35" placeholder="Answer C"></textarea>
+  <textarea class="answer" rows="2" cols="35" placeholder="Answer D"></textarea>
+  <br><br><input type="button" value="Add More Questions">
+  </div>
+  </div>
+  
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="P4Proj5Temp1v2.js"></script>
+
+</body>
+</html>
